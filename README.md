@@ -20,8 +20,7 @@ pip --version
 ## Install Django
 pip install django
 
-## Database setup (sqlite) 
-python manage.py makemigrations
+## Database setup (sqlite)
 python manage.py migrate
 
 ## run develpopment server :
