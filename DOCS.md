@@ -99,7 +99,7 @@ curl -X POST http://127.0.0.1:8000/webhook/payments \
 ## Fetch events for a payment
 curl http://127.0.0.1:8000/payments/pay_014/events
 
-# 5. Edge Cases & Notes
+# 5. Edge Cases 
 ### Duplicate Events
 If an event with the same event_id is received again:
 Response: 409 Duplicate event, 
