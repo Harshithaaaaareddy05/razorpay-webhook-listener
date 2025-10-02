@@ -54,8 +54,10 @@ Ensures idempotency: duplicate event_id is ignored.
       "status": 409
     }
   ]
-}
+}<img width="562" height="227" alt="Invalid_signature_output" src="https://github.com/user-attachments/assets/54bedd15-1c99-4db2-b83c-6d21822b8aa6" />
 
+
+<img width="745" height="398" alt="Valid_signature_output" src="https://github.com/user-attachments/assets/eca2933a-b494-496e-b85d-e2208d075e50" />
 
 
 # 2. Payment Event Query Endpoint
@@ -80,7 +82,7 @@ payment_id	The ID of the payment to fetch events for
 ]
 
 # 3. Mock Payloads
-You can find sample payloads in the mock_payloads/ folder:
+You can find sample payloads in the mock_payloads/ folder
 
 # Testing with curl:
 ## Send webhook event
@@ -91,3 +93,6 @@ curl -X POST http://127.0.0.1:8000/webhook/payments \
 
 ## Fetch events for a payment
 curl http://127.0.0.1:8000/payments/pay_014/events
+<img width="575" height="293" alt="Get_endpoint_output" src="https://github.com/user-attachments/assets/4b8b05cc-520b-43ae-9d81-3ce03523fcd1" />
+
+
