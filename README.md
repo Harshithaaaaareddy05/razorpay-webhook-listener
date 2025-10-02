@@ -28,8 +28,5 @@ python manage.py runserver
 ##### webhook listener will now be running at http://127.0.0.1:8000/. You can start testing the webhook listener here.
 
 
-## Screenshots of the webhook listener in action for reference
-<img width="562" height="227" alt="Invalid_signature_output" src="https://github.com/user-attachments/assets/906483b4-01e6-4ead-a283-63b381db5f49" />
-<img width="745" height="398" alt="Valid_signature_output" src="https://github.com/user-attachments/assets/8b2d6e63-9023-4278-89e7-f512aa9233d9" />
-<img width="575" height="293" alt="Get_endpoint_output" src="https://github.com/user-attachments/assets/4d7b4ca4-f72f-4162-9d72-bc2b24751bc7" />
+## Screenshots of the webhook listener in action for reference is added in DOCS.md
 
