@@ -6,21 +6,21 @@ This project is designed to implement a minimal and secure webhook listener syst
 - Django framework
 - SQLite (for local development)
 
-### Steps to Set Up Locally: 
+## Steps to Set Up Locally: 
 git clone https://github.com/Harshithaaaaareddy05/razorpay-webhook-listener.git
 
-#### Navigate to the project folder::
+## Navigate to the project folder::
 cd razorpay-webhook-listener
 
-##### if pip is not installed, install it by running the following command:
+## if pip is not installed, install it by running the following command:
 python get-pip.py
-### After installation, verify that pip is installed correctly: 
+## After installation, verify that pip is installed correctly: 
 pip --version
 
-# Install Django
+## Install Django
 pip install django
 
-# Database setup (sqlite) 
+## Database setup (sqlite) 
 python manage.py makemigrations
 python manage.py migrate
 
