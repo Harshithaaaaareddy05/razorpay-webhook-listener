@@ -54,6 +54,8 @@ Ensures idempotency: duplicate event_id is ignored.
       "status": 409
     }
   ]
+
+  
   <img width="837" height="72" alt="Screenshot 2025-10-02 at 2 50 07 PM" src="https://github.com/user-attachments/assets/93685348-0855-45b4-b7f5-245a77afd135" />
 
 }<img width="562" height="227" alt="Invalid_signature_output" src="https://github.com/user-attachments/assets/54bedd15-1c99-4db2-b83c-6d21822b8aa6" />
