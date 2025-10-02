@@ -98,20 +98,20 @@ curl http://127.0.0.1:8000/payments/pay_014/events
 # 5. Edge Cases & Notes
 ### Duplicate Events
 #### If an event with the same event_id is received again:
-##### Response: 409 Duplicate event
-##### Event is not stored again.
+Response: 409 Duplicate event
+Event is not stored again.
 ### Invalid or Missing Signature
-##### Missing X-Razorpay-Signature → 403 Forbidden
-##### Invalid signature → 403 Forbidden
+Missing X-Razorpay-Signature → 403 Forbidden
+Invalid signature → 403 Forbidden
 ### Invalid JSON
-##### Payload is not valid JSON → 400 Bad Request
+Payload is not valid JSON → 400 Bad Request
 ### Partial / Malformed Payload
-##### Missing fields like payment_id, event_type, or id:
-##### Event is skipped
-##### Response indicates error with 400 Bad Request for that particular event
+Missing fields like payment_id, event_type, or id:
+Event is skipped
+Response indicates error with 400 Bad Request for that particular event
 ### Database / Storage Notes
-##### Events are stored in chronological order based on created_at.
-##### Amount and currency are stored as-is from the payload.
-##### Idempotency ensures that processing the same payload multiple times does not create duplicates.
+Events are stored in chronological order based on created_at.
+Amount and currency are stored as-is from the payload.
+Idempotency ensures that processing the same payload multiple times does not create duplicates.
 
 
