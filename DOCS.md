@@ -68,6 +68,7 @@ Fetch all historical events for a specific payment ID, sorted chronologically.
 #### Parameters:
 Parameter	   Description
 payment_id	The ID of the payment to fetch events for
+<img width="575" height="293" alt="Get_endpoint_output" src="https://github.com/user-attachments/assets/d7f52d83-9d18-4e7e-9bf4-51eb618f4e61" />
 
 ### Response Example
 [
@@ -93,6 +94,5 @@ curl -X POST http://127.0.0.1:8000/webhook/payments \
 
 ## Fetch events for a payment
 curl http://127.0.0.1:8000/payments/pay_014/events
-<img width="575" height="293" alt="Get_endpoint_output" src="https://github.com/user-attachments/assets/4b8b05cc-520b-43ae-9d81-3ce03523fcd1" />
 
 
