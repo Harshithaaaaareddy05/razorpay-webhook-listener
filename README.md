@@ -14,10 +14,10 @@ cd razorpay-webhook-listener
 
 ##### if pip is not installed, install it by running the following command:
 python get-pip.py
-# After installation, verify that pip is installed correctly: 
+### After installation, verify that pip is installed correctly: 
 pip --version
 
-##### Install Django
+# Install Django
 pip install django
 
 # Database setup (sqlite) 
@@ -26,4 +26,4 @@ python manage.py migrate
 
 ## run develpopment server :
 python manage.py runserver
-# webhook listener will now be running at http://127.0.0.1:8000/. You can start testing the webhook listener here.
+##### webhook listener will now be running at http://127.0.0.1:8000/. You can start testing the webhook listener here.
