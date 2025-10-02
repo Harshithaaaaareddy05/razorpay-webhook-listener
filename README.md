@@ -28,5 +28,5 @@ python manage.py runserver
 ##### webhook listener will now be running at http://127.0.0.1:8000/. You can start testing the webhook listener here.
 
 
-## Screenshots of the webhook listener in action for reference is added in DOCS.md
+### Screenshots of the webhook listener in action for reference is added in DOCS.md
 
