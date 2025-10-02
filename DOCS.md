@@ -97,7 +97,7 @@ curl http://127.0.0.1:8000/payments/pay_014/events
 
 # 5. Edge Cases & Notes
 ### Duplicate Events
-#### If an event with the same event_id is received again:
+If an event with the same event_id is received again:
 Response: 409 Duplicate event
 Event is not stored again.
 ### Invalid or Missing Signature
